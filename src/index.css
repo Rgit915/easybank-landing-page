@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@300;400;900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-public-sans: "Public Sans", sans-serif;
+
+  /* Colors */
+  --color-primary-dark-blue: hsl(233, 26%, 24%);
+  --color-primary-lime-green: hsl(136, 65%, 51%);
+  --color-primary-bright-cyan: hsl(192, 70%, 51%);
+  --color-neutral-grayish-blue: hsl(233, 8%, 62%);
+  --color-neutral-light-grayish-blue: hsl(220, 16%, 96%);
+  --color-neutral-very-light-gray: hsl(0, 0%, 98%);
+  --color-white: hsla(0, 0%, 100%);
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply font-normal text-lg;
+  }
+
+  main {
+    @apply flex flex-col justify-center items-center w-full;
+  }
+  .request-button {
+    @apply bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan text-white font-bold text-sm leading-7 px-6 py-2 rounded-3xl;
+  }
+  h2 {
+    @apply font-light text-3xl tracking-[-0.57px] text-center text-primary-dark-blue px-8 mb-4;
+  }
+  h3 {
+    @apply font-light text-xl leading-7 tracking-[-0.36px] text-center text-primary-dark-blue py-4;
+  }
+  p {
+    @apply text-base font-normal text-neutral-grayish-blue tracking-[-0.23px] text-center;
+  }
+  .features img {
+    @apply mx-auto mt-4;
+  }
+}
