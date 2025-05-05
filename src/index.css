@@ -44,4 +44,26 @@
   .features img {
     @apply mx-auto mt-4;
   }
+
+  .latest-articles img {
+   @apply rounded-t-lg mb-8;
+  }
+
+  .latest-articles article span {
+   @apply font-normal text-[10px] leading-4 tracking-[-0.16px] text-neutral-grayish-blue
+  }
+
+  .latest-articles article div {
+    @apply px-4;
+  }
+  .latest-articles p{
+    @apply font-normal text-[13px] leading-5 tracking-[-0.2px] text-left;
+  }
+
+  footer li {
+    @apply mb-4
+  }
+  footer li a{
+    @apply font-normal text-[15px] tracking-[-0.23px] text-center
+  }
 }
