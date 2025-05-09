@@ -6,7 +6,7 @@ import imageConfetti from "../assets/images/image-confetti.jpg";
 const Articles = () => {
   return (
     <section className="latest-articles flex flex-col justify-between gap-8 px-6 py-12 bg-white text-left">
-      <h2 className="md:p-0">Latest Articles</h2>
+      <h2 className="text-center md:text-left md:p-0 xl:ml-14">Latest Articles</h2>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 max-w-7xl mx-auto">
         <article>
           <img src={imageCurrency} alt="" className="w-full"/>

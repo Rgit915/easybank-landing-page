@@ -5,14 +5,14 @@ import openApi from "../assets/images/icon-api.svg";
 const Easybank = () => {
   return (
     <section className="why-choose-easybank bg-neutral-light-grayish-blue flex flex-col items-center justify-center text-center px-6 py-12">
-      <div>
-        <h2 className="">Why choose Easybank?</h2>
-        <p>
+      <div className="max-w-7xl mx-auto mb-20 md:ml-0 xl:ml-14">
+        <h2 className="md:text-left md:p-0">Why choose Easybank?</h2>
+        <p class="md:w-2/3 md:text-left lg:w-1/2">
           We leverage Open Banking to turn your bank account into your financial
           hub. Control your finances like never before.
         </p>
       </div>
-      <div className="features">
+      <div className="features grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 max-w-7xl mx-auto">
         <article>
           <img
             src={onlineBanking}

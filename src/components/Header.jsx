@@ -12,7 +12,7 @@ const Header = () => {
   const links = ["Home", "About", "Contact", "Blog", "Careers"];
   return (
     <>
-      <header className="relative z-50 flex justify-between items-center w-full bg-white p-8">
+      <header className="relative z-50 flex justify-between items-center w-full bg-white shadow p-8">
         <nav className="flex justify-between items-center w-full">
           <img src={logo} alt="Easybank logo" />
           <ul className="hidden md:flex md:justify-around md:items-center w-1/3 gap-4">

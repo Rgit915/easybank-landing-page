@@ -2,8 +2,8 @@ import logo from "../assets/images/logo_easybank.svg";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col justify-center items-center gap-12 py-12 bg-primary-dark-blue w-full text-white text-center">
-      <div className="">
+    <footer className="flex flex-col justify-center items-center gap-12 py-12 bg-primary-dark-blue w-full text-white text-center md:flex-row md:justify-around md:items-start">
+      <div className="md:flex md:flex-col gap-10">
         <img src={logo} alt="easybank logo" />
         <div className="social-medias flex justify-between items-center mt-8">
         <i class="fa-brands fa-square-facebook"></i>
@@ -13,7 +13,7 @@ const Footer = () => {
         <i class="fa-brands fa-instagram"></i>
         </div>
       </div>
-      <nav aria-label="Footer navigation">
+      <nav aria-label="Footer navigation" className="md:flex md:items-center md:gap-8 md:text-left lg:gap-16 lg:px-12">
         <ul>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Contact</a></li>
@@ -25,7 +25,7 @@ const Footer = () => {
           <li><a href="#">Privacy Policy</a></li>
         </ul>
       </nav>
-      <div className="flex flex-col justify-center items-center gap-6 ">
+      <div className="flex flex-col justify-center items-center gap-10 ">
       <button className="request-button">Request Invite</button>
         <p>© Easybank. All Rights Reserved</p>
       </div>
