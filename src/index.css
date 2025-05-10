@@ -26,7 +26,10 @@
     @apply font-normal text-lg;
   }
   .request-button {
-    @apply bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan text-white font-bold text-sm leading-7 px-6 py-2 rounded-3xl;
+    @apply bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan text-white font-bold text-sm leading-7 px-6 py-2 rounded-3xl cursor-pointer;
+  }
+  .request-button:hover {
+    background: hsl(148, 60%, 70%);
   }
   h2 {
     @apply font-light text-3xl tracking-[-0.57px] text-center text-primary-dark-blue px-8 mb-4 md:text-left;
@@ -37,30 +40,40 @@
   p {
     @apply text-base font-normal text-neutral-grayish-blue tracking-[-0.23px] text-center md:text-left xl:text-[18px];
   }
+  
+  .custom-underline::after {
+    content: '';
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  }
   .features img {
     @apply mx-auto mt-4 md:mx-0;
   }
 
   .latest-articles img {
-   @apply rounded-t-lg md:h-52 md:object-cover lg:w-72;
+    @apply rounded-t-lg md:h-52 md:object-cover lg:w-72;
   }
 
   .latest-articles article span {
-   @apply font-normal text-[10px] leading-4 tracking-[-0.16px] text-neutral-grayish-blue;
+    @apply font-normal text-[10px] leading-4 tracking-[-0.16px] text-neutral-grayish-blue;
   }
 
   .latest-articles article div {
     @apply p-8 bg-white shadow rounded-b-lg;
   }
-  .latest-articles p{
+  .latest-articles p {
     @apply font-normal text-[13px] leading-5 tracking-[-0.2px] text-left;
   }
 
-  footer li {
-    @apply mb-4
+  .latest-articles h4:hover {
+    color: hsla(158, 61%, 49%, 1);
   }
-  footer li a{
-    @apply font-normal text-[15px] tracking-[-0.23px] text-center
+  footer li {
+    @apply mb-4;
+  }
+  footer li a {
+    @apply font-normal text-[15px] tracking-[-0.23px] text-center;
+  }
+  footer li a:hover {
+    color: hsla(158, 61%, 49%, 1);
   }
 }
-
