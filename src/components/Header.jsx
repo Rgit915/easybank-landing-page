@@ -18,11 +18,16 @@ const Header = () => {
           <ul className="hidden md:flex md:justify-around md:items-center w-1/3 gap-4">
             {links.map((link) => (
               <li key={link}>
-                <a href="#">{link}</a>
+                <a
+                  href="#"
+                  className="relative custom-underline after:content-[''] after:absolute after:left-0 after:top-full after:mt-10 after:h-1 after:w-0  hover:after:w-full after:transition-all after:duration-300"
+                >
+                  {link}
+                </a>
               </li>
             ))}
           </ul>
-          <button className="request-button hidden md:flex">
+          <button className="request-button hidden md:flex transition ">
             Request Invite
           </button>
           <div className="md:hidden">
