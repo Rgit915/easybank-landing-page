@@ -6,11 +6,11 @@ const Footer = () => {
       <div className="md:flex md:flex-col gap-10">
         <img src={logo} alt="easybank logo" />
         <div className="social-medias flex justify-between items-center mt-8">
-        <i class="fa-brands fa-square-facebook"></i>
-        <i class="fa-brands fa-square-youtube"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-pinterest"></i>
-        <i class="fa-brands fa-instagram"></i>
+        <i className="fa-brands hover:text-primary-lime-green hover:scale-110 transition-transform duration-200 cursor-pointer fa-square-facebook"></i>
+        <i className="fa-brands hover:text-primary-lime-green hover:scale-110 transition-transform duration-200 cursor-pointer fa-square-youtube"></i>
+        <i className="fa-brands hover:text-primary-lime-green hover:scale-110 transition-transform duration-200 cursor-pointer fa-twitter"></i>
+        <i className="fa-brands hover:text-primary-lime-green hover:scale-110 transition-transform duration-200 cursor-pointer fa-pinterest"></i>
+        <i className="fa-brands hover:text-primary-lime-green hover:scale-110 transition-transform duration-200 cursor-pointer fa-instagram"></i>
         </div>
       </div>
       <nav aria-label="Footer navigation" className="md:flex md:items-center md:gap-8 md:text-left lg:gap-16 lg:px-12">
