@@ -32,7 +32,7 @@ const Hero = () => {
       <img
         src={mockUps}
         alt="Mobile screens showing finances"
-        className="absolute -top-12"
+        className="absolute -top-12 lg:-right-30"
       />
     </article>
   </section>
