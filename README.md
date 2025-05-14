@@ -34,7 +34,7 @@ Users should be able to:
 
 ![Mobile preview](https://github.com/Rgit915/easybank-landing-page/blob/master/src/screenshots/easybank-landing-page-mobile-solution-preview.png)
 
-![Mobile Menu preview](https://github.com/Rgit915/easybank-landing-page/blob/master/src/screenshots/easybank-landing-page-mobile-menu-solution-preview.png)
+![Mobile Menu preview](https://github.com/Rgit915/easybank-landing-page/blob/master/src/screenshots/easybank-mobile-menu-solution-preview.png)
 
 
 ### Links
