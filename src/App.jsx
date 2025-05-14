@@ -8,7 +8,7 @@ import "./index.css";
 
 const App = () => {
   return (
-    <main role="main">
+    <main>
       <Header />
       <Hero />
       <Easybank />

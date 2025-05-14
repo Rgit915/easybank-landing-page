@@ -59,7 +59,7 @@ const Articles = () => {
             <img src={image} alt={alt} className="w-full" />
             <div>
               <span>By {author}</span>
-              <h4>{title}</h4>
+              <h3>{title}</h3>
               <p>{content}</p>
             </div>
           </article>
